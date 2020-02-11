@@ -53,6 +53,10 @@ ini adalah tampilan dari projectnya
 <p><br></p>
 <img src="https://i.imgur.com/E0Rxaku.png" alt="Search" >
 
+### Favorit
+<p><br></p>
+<img src="https://i.imgur.com/dS11wf8.png" alt="favroit" >
+
 ### Detail
 <p><br></p>
 <img src="https://i.imgur.com/Gnl8qFI.png" alt="detail" >
@@ -60,3 +64,14 @@ ini adalah tampilan dari projectnya
 ### Setting
 <p><br></p>
 <img src="https://imgur.com/x6lMOHG.gif" alt="Setting">
+
+# Favorit (Content Provider)
+<p><br></p>
+### Home
+<p><br></p>
+<img src="https://i.imgur.com/7zEWAMI.png" alt="home">
+
+### Detail
+<p><br></p>
+<img src="https://i.imgur.com/dXeJ0LU.png" alt="detail">
+
