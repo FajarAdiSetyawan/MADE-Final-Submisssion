@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashScreenActivity"
+    android:background="@drawable/bg_layout_white">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/img_splash"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:lottie_fileName="video_cam.json"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/bluePrimary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/quicksandbold"
+        app:layout_constraintBottom_toTopOf="@id/tv_appdeskripsi"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_appdeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appdeskripsi"
+        android:textColor="@color/blueSecondary"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/firasansregular"
+        app:layout_constraintBottom_toTopOf="@id/progress_bar"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/progress_bar"
+        style="@style/ProgressBarPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

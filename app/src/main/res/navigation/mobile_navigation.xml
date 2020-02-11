@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_movie"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="com.fajaradisetyawan.madesubmisssion5.activity.favorit.MovieFavFragment"
+        android:label="@string/title_text_movie"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/navigation_tvshow"
+        android:name="com.fajaradisetyawan.madesubmisssion5.activity.favorit.TvShowFavFragment"
+        android:label="@string/title_text_tv_show"
+        tools:layout="@layout/fragment_tv_show" />
+
+
+
+</navigation>

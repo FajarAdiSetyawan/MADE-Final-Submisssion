@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hiburan</string>
+    <string name="setting">Pengaturan</string>
+    <string name="title_text_movie">Film</string>
+    <string name="title_text_tv_show">Acara TV</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="about">Tentang</string>
+    <string name="language">Bahasa</string>
+    <string name="appversion">Versi Aplikasi 1.0</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="daterelase">Tanggal Rilis</string>
+    <string name="title_movie">Judul Movie</string>
+    <string name="genre_movie">Genre</string>
+    <string name="daterelease_movie">Date Release</string>
+    <string name="favoriteadd">Berhasil Ditambahkan Ke Favorit</string>
+    <string name="removefav">Berhasil Dihapus Dari Favorit</string>
+    <string name="popularity">Popularitas</string>
+    <string name="poster">Gambar Poster</string>
+    <string name="home">Beranda</string>
+    <string name="backdrop">Gambar Backdrop</string>
+    <string name="search">Cari</string>
+    <string name="dailyreminder">Pengingat Harian</string>
+    <string name="dailyreminder2">Pengingat Harian Setiap Jam 7 Pagi</string>
+    <string name="releasereminder">Pengingat Rilis</string>
+    <string name="releasereminder2">Pengingat Rilis Film Setiap Hari</string>
+    <string name="favoritelist">List Favorit</string>
+    <string name="favoriteempty">Favorit Kosong</string>
+    <string name="daily_reminder_off">Pengingat Harian MATI</string>
+    <string name="release_reminder_off">Pengingat Rilis MATI</string>
+    <string name="release_reminder_on">Pengingat Rilis NYALA</string>
+    <string name="daily_reminder_on">Pengingat Harian NYALA</string>
+    <string name="daily_reminder_message">Hei! Periksa Rilis Film Baru Anda Di Sini</string>
+    <string name="notifications">Pemberitahuan</string>
+    <string name="appdeskripsi">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, sapiente.</string>
+</resources>

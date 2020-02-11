@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fajaradisetyawan.madesubmisssion5">
+
+    <permission
+        android:name="com.fajaradisetyawan.madesubmisssion5.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.fajaradisetyawan.madesubmisssion5.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/movieicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/movieicon"
+        android:supportsRtl="true"
+        android:configChanges="orientation"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <receiver android:name=".widget.StackWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/stack_widget_info" />
+        </receiver>
+
+        <activity android:name=".activity.favorit.FavoriteActivity"
+            android:configChanges="orientation"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.MainActivity"
+            android:configChanges="orientation"/>
+        <activity android:name=".activity.detail.DetailTvShowActivity"
+            android:configChanges="orientation"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.detail.DetailMovieActivity"
+            android:configChanges="orientation"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.SplashScreenActivity"
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".alarm.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <provider
+            android:name=".provider.MainProvider"
+            android:authorities="com.fajaradisetyawan.madesubmisssion5"
+            android:exported="true"
+            android:readPermission="com.fajaradisetyawan.madesubmisssion5.READ_DATABASE"
+            android:writePermission="com.fajaradisetyawan.madesubmisssion5.WRITE_DATABASE" />
+
+        <service
+            android:name=".widget.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+    </application>
+
+</manifest>

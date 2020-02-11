@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Entertainment</string>
+    <string name="setting">Setting</string>
+    <string name="title_text_movie">Movie</string>
+    <string name="title_text_tv_show">TV Show</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="about">About</string>
+    <string name="language">Language</string>
+    <string name="appversion">App Version 1.0</string>
+    <string name="sinopsis">Synopsis</string>
+    <string name="daterelase">Date Relase</string>
+    <string name="title_movie">Title Movie</string>
+    <string name="genre_movie">Genre</string>
+    <string name="daterelease_movie">Date Release</string>
+    <string name="favoriteadd">Successfully Added To Favorites</string>
+    <string name="removefav">Successfully Removed From Favorites</string>
+    <string name="popularity">Popularity</string>
+    <string name="poster">Image Poster</string>
+    <string name="home">Home</string>
+    <string name="backdrop">Image Backdrop</string>
+    <string name="search">Search</string>
+    <string name="favoritelist">Favorite List</string>
+    <string name="favoriteempty">Favorite Empty</string>
+    <string name="dailyreminder">Daily Reminder</string>
+    <string name="dailyreminder2">Daily Reminder Every 7 AM</string>
+    <string name="releasereminder">Release Reminder</string>
+    <string name="releasereminder2">Reminder Of Film Release Every Day</string>
+    <string name="daily_reminder_off">Daily Reminder OFF</string>
+    <string name="release_reminder_off">Release Reminder OFF</string>
+    <string name="release_reminder_on">Release Reminder ON</string>
+    <string name="daily_reminder_on">Daily Reminder ON</string>
+    <string name="daily_reminder_message">Hey! Check Your New Movie Release Here</string>
+    <string name="notifications">Notifications</string>
+    <string name="appdeskripsi">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, sapiente.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

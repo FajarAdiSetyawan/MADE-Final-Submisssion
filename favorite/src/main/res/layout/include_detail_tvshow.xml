@@ -1,0 +1,184 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_titleTvShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/blackPrimary"
+        android:fontFamily="@font/quicksandbold"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.florent37.shapeofview.shapes.CutCornerView
+        android:id="@+id/clipCorner"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@id/txt_titleTvShow"
+        android:layout_marginTop="30dp"
+        android:elevation="4dp"
+        app:shape_cutCorner_bottomRightSize="20dp">
+
+        <ImageView
+            android:id="@+id/img_poster_tvshow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/loading"
+            android:contentDescription="@string/poster" />
+
+    </com.github.florent37.shapeofview.shapes.CutCornerView>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/text_relasedate"
+        app:layout_constraintTop_toBottomOf="@id/txt_titleTvShow"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toEndOf="@id/clipCorner"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:fontFamily="@font/cairobold"
+        android:text="@string/daterelase"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/tv_release_tvshow"
+        android:fontFamily="@font/cairoregular"
+        android:text="@string/daterelease_movie"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/text_relasedate"
+        app:layout_constraintStart_toEndOf="@id/clipCorner"
+        android:layout_marginStart="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/text_genre_tvshow"
+        android:fontFamily="@font/cairobold"
+        android:text="@string/genre_movie"
+        app:layout_constraintTop_toBottomOf="@id/tv_release_tvshow"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@id/clipCorner"
+        android:layout_marginStart="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/tv_genre_tvshow"
+        android:fontFamily="@font/cairoregular"
+        android:text="@string/genre_movie"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/text_genre_tvshow"
+        app:layout_constraintStart_toEndOf="@id/clipCorner"
+        android:layout_marginStart="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/text_popular_tvshow"
+        android:fontFamily="@font/cairobold"
+        android:text="@string/popularity"
+        app:layout_constraintTop_toBottomOf="@id/tv_genre_tvshow"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@id/clipCorner"
+        android:layout_marginStart="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/tv_popular_tvshow"
+        android:fontFamily="@font/cairoregular"
+        android:text="@string/popularity"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/text_popular_tvshow"
+        app:layout_constraintStart_toEndOf="@id/clipCorner"
+        android:layout_marginStart="@dimen/activity_vertical_margin"/>
+
+    <RatingBar
+        android:id="@+id/ratingBarTvShow"
+        style="@style/RatingBar"
+        android:layout_marginTop="10dp"
+        android:progressTint="@color/bluePrimary"
+        android:secondaryProgressTint="@color/blueSecondary"
+        app:layout_constraintTop_toBottomOf="@id/tv_popular_tvshow"
+        app:layout_constraintStart_toEndOf="@id/clipCorner"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DADADA"
+        android:id="@+id/garispembatas"
+        app:layout_constraintTop_toBottomOf="@id/ratingBarTvShow"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/activity_vertical_margin">
+    </View>
+
+    <TextView
+        android:id="@+id/text_sinopsis_tvshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/quicksandbold"
+        android:text="@string/sinopsis"
+        android:layout_gravity="center"
+        android:textColor="@color/blackPrimary"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/garispembatas"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/tv_synopsis_tvshow"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/quicksandregular"
+        android:textColor="@color/greyPrimary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/text_sinopsis_tvshow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_synopsis_tvshow">
+    </View>
+</androidx.constraintlayout.widget.ConstraintLayout>
