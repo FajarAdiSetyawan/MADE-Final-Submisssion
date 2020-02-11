@@ -53,14 +53,10 @@ ini adalah tampilan dari projectnya
 <p><br></p>
 <img src="https://i.imgur.com/E0Rxaku.png" alt="Search" >
 
-### Search
+### Detail
 <p><br></p>
-<img src="https://i.imgur.com/E0Rxaku.png" alt="Search" >
+<img src="https://i.imgur.com/Gnl8qFI.png" alt="detail" >
 
-### Search
+### Setting
 <p><br></p>
-<img src="https://i.imgur.com/E0Rxaku.png" alt="Search" >
-
-### Search
-<p><br></p>
-<img src="https://imgur.com/a/ZGEEFHL.gif" alt="Search" >
+<img src="https://imgur.com/x6lMOHG.gif" alt="Setting">
