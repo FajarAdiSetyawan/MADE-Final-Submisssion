@@ -66,7 +66,7 @@ ini adalah tampilan dari projectnya
 <img src="https://imgur.com/x6lMOHG.gif" alt="Setting">
 
 # Favorit (Content Provider)
-<p><br></p>
+<br><br>
 ### Home
 <p><br></p>
 <img src="https://i.imgur.com/7zEWAMI.png" alt="home">
