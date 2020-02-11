@@ -44,20 +44,8 @@ ini adalah tampilan dari projectnya
 <p><br></p>
 <img src="https://imgur.com/XJpWfSm.gif" alt="Splash Screen" >
 
+
 ### Home
 <p><br></p>
-<img src="https://imgur.com/XJpWfSm.gif" alt="Home">
+<img src="https://i.imgur.com/WTgoDgj.png" alt="Splash Screen" >
 
-### Search
-<p><br></p>
-<img src="https://imgur.com/XJpWfSm.gif" alt="Search">
-
-### Detail
-<p><br></p>
-<img src="https://imgur.com/B6nsnUz.gif" alt="detail">
-
-### Setting
-<p><br></p>
-<img src="https://imgur.com/x6lMOHG.gif" alt="Setting">
-<img src="https://i.imgur.com/B6nsnUz.gif" alt="detail">
-<img src="https://i.imgur.com/xKOgOSW.gif" alt="detail">
