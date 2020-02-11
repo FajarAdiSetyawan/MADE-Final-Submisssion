@@ -49,3 +49,18 @@ ini adalah tampilan dari projectnya
 <p><br></p>
 <img src="https://i.imgur.com/WTgoDgj.png" alt="Splash Screen" >
 
+### Search
+<p><br></p>
+<img src="https://i.imgur.com/E0Rxaku.png" alt="Search" >
+
+### Search
+<p><br></p>
+<img src="https://i.imgur.com/E0Rxaku.png" alt="Search" >
+
+### Search
+<p><br></p>
+<img src="https://i.imgur.com/E0Rxaku.png" alt="Search" >
+
+### Search
+<p><br></p>
+<img src="https://imgur.com/a/ZGEEFHL.gif" alt="Search" >
